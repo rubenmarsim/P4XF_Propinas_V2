@@ -132,13 +132,6 @@ namespace Propinas
             grid.Children.Add(lblTotal, 1, 6);
             grid.Children.Add(edtrTotal, 2, 6);
 
-            //Children =
-            //{
-            //    lblHeader, lblSubtotal, edtrSubtotal, lblPostTax, edtrPostTax,
-            //    lblTipPercent, edtrTipPercent, lblTipValue, edtrTipPercent,
-            //    sldr, lblTipValue, edtrTipValue, lblTotal, edtrTotal, btnCalcular
-            //}
-
             Content = new ScrollView {
 				Content = grid
 			};
