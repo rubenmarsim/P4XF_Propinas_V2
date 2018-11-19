@@ -8,3 +8,8 @@ C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\
 C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.dll
 C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.pdb
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.csprojAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.csproj.CopyComplete
