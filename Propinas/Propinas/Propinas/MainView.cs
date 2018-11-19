@@ -126,7 +126,7 @@ namespace Propinas
             grid.Children.Add(edtrPostTax, 2, 2);
             grid.Children.Add(lblTipPercent, 1, 3);
             grid.Children.Add(edtrTipPercent, 2, 3);
-            grid.Children.Add(sldr,1, 4);
+            grid.Children.Add(sldr,1,2,4,5);
             grid.Children.Add(lblTipValue, 1, 5);
             grid.Children.Add(edtrTipValue, 2, 5);
             grid.Children.Add(lblTotal, 1, 6);
