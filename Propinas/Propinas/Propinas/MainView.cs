@@ -117,6 +117,26 @@ namespace Propinas
                 edtrTipValue.Text = CTipInfo.TipValue.ToString();
                 edtrTotal.Text = CTipInfo.Total.ToString();
             };
+            edtrPostTax.Unfocused += (sender, e) =>
+            {
+                CTipInfo.Subtotal = double.Parse(edtrSubtotal.Text);
+                CTipInfo.PostTax = double.Parse(edtrPostTax.Text);
+                CTipInfo.sldrVal = sldr.Value;
+                CTipInfo.Calculos();
+                edtrTipPercent.Text = CTipInfo.TipPercent.ToString();
+                edtrTipValue.Text = CTipInfo.TipValue.ToString();
+                edtrTotal.Text = CTipInfo.Total.ToString();
+            };
+            sldr.ValueChanged += (sender, e) =>
+            {
+                CTipInfo.Subtotal = double.Parse(edtrSubtotal.Text);
+                CTipInfo.PostTax = double.Parse(edtrPostTax.Text);
+                CTipInfo.sldrVal = sldr.Value;
+                CTipInfo.Calculos();
+                edtrTipPercent.Text = CTipInfo.TipPercent.ToString();
+                edtrTipValue.Text = CTipInfo.TipValue.ToString();
+                edtrTotal.Text = CTipInfo.Total.ToString();
+            };
             #endregion
 
         }
