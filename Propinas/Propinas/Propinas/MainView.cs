@@ -105,6 +105,7 @@ namespace Propinas
             #region Instancias
             var CTipInfo = new TipInfo();
             #endregion
+
             #region Metodos
             btnCalcular.Clicked += (sender, e) =>
             {
