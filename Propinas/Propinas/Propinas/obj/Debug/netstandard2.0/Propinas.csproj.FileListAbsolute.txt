@@ -1,0 +1,10 @@
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\Debug\netstandard2.0\Propinas.deps.json
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\Debug\netstandard2.0\Propinas.dll
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\bin\Debug\netstandard2.0\Propinas.pdb
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.dll
+C:\Users\admin\Documents\GitHub\P4XF_Propinas_V2\Propinas\Propinas\Propinas\obj\Debug\netstandard2.0\Propinas.pdb
