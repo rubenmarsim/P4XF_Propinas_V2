@@ -48,8 +48,18 @@ namespace Propinas
             set { _Total = value; }
         }
 
+        private double _sldrVal;
+
+        public double sldrVal
+        {
+            get { return _sldrVal; }
+            set { _sldrVal = value; }
+        }
+
+
         public void Calculos()
         {
+            TipPercent = sldrVal;
             TipValue = PostTax * TipPercent / 100;
             Total = TipValue + PostTax;
         }

@@ -50,11 +50,11 @@ namespace Propinas
             };
             var edtrTipPercent = new Editor
             {
-                HorizontalOptions = LayoutOptions.Fill
+                HorizontalOptions = LayoutOptions.Fill,
+                IsEnabled = false,
             };
             var sldr = new Slider
             {
-                HorizontalOptions = LayoutOptions.CenterAndExpand,
                 Minimum = 0,
                 Maximum = 100,
             };
@@ -105,16 +105,18 @@ namespace Propinas
             #region Instancias
             var CTipInfo = new TipInfo();
             #endregion
-
+            #region Metodos
             btnCalcular.Clicked += (sender, e) =>
             {
                 CTipInfo.Subtotal = double.Parse(edtrSubtotal.Text);
                 CTipInfo.PostTax = double.Parse(edtrPostTax.Text);
-                CTipInfo.TipPercent = double.Parse(edtrTipPercent.Text);
+                CTipInfo.sldrVal = sldr.Value;
                 CTipInfo.Calculos();
+                edtrTipPercent.Text = CTipInfo.TipPercent.ToString();
                 edtrTipValue.Text = CTipInfo.TipValue.ToString();
                 edtrTotal.Text = CTipInfo.Total.ToString();
             };
+            #endregion
 
         }
     }
