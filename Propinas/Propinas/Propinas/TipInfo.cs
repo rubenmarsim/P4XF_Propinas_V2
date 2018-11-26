@@ -60,7 +60,7 @@ namespace Propinas
         public void Calculos()
         {
             TipPercent = sldrVal;
-            TipValue = PostTax * TipPercent / 100;
+            TipValue = Subtotal * TipPercent / 100;
             Total = TipValue + PostTax;
         }
 
